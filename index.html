@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169545746-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169545746-1');
+  </script>
+
+  <meta charset="UTF-8">
+  <title>Shannons Confetti</title>
+
+  <link rel="stylesheet" href="Css/splashStyle.css">
+  <link rel="stylesheet" href="Css/buttonStyle.css">
+
+</head>
+
+<body class="welcome">
+  <span id="splash-overlay" class="splash"></span>
+  <span id="welcome" class="z-depth-4"></span>
+
+  <div id="buttonDiv">
+    <button id="button">Button</button>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+  </div>
+
+
+
+</body>
+<script src="Js/buttonScript.js"></script>
+
+
+<script>
+  function showBuyNow() {
+    document.getElementById("buttonDiv").style.display = "block";
+  }
+
+  //this calls the function above, 3000 milliseconds is 3 seconds, adjust here to make it a longer interval
+  setTimeout("showBuyNow()", 3800);
+</script>
+
+</html>
