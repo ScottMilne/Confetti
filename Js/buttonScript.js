@@ -125,7 +125,7 @@ var FX = {};
     var thisUpdate = new Date(),
       delta = (lastUpdate - thisUpdate) / 1000,
       amount = FX.particles.length,
-      size = 2,
+      size = 3,
       i = 0,
       p;
 
