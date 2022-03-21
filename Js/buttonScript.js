@@ -58,7 +58,7 @@ var FX = {};
       width = button.offsetWidth,
       x, y, degree;
 
-    for (var i = 0; i < 1500; i = i + 1) {
+    for (var i = 0; i < 800; i = i + 1) {
 
       if (Math.random() < 0.5) {
 
@@ -125,7 +125,7 @@ var FX = {};
     var thisUpdate = new Date(),
       delta = (lastUpdate - thisUpdate) / 1000,
       amount = FX.particles.length,
-      size = 3,
+      size = 4,
       i = 0,
       p;
 
